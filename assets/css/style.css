@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+.mySlides {display:none;}
+html {
+  font-family: 'Cabin', sans-serif;
+  width: 100vw;
+}
+h2 { font-size: 14px; }
+p { font-size: 12px; }
+*{
+  margin: 0;
+  padding: 0;
+}
+header, body{
+  width: 100%;
+  height: auto;
+  text-align:center;
+}
+/* Aquí inicia el helper :) */
+#helper {
+  padding: 20px 0px;
+  text-align: end;
+}
+#helper li {
+  display: inline-block;
+  margin-right: 20px;
+}
+#helper a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+#helper img {
+  margin-left: 10px;
+}
+/* Otra seccion del header */
+.main-navbar{
+  padding: 20px 0px;
+  display :flex;
+  justify-content: center;
+  align-items: center;
+}
+/* */
+.navigation{
+  padding: 20px 0px;
+}
+.navigation ul {
+  width: 100%;
+}
+.navigation li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.navigation li:last-child {
+  margin-right: 0;
+}
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+/* Estilos del BODY */
+#section3 img {
+  width: 100%;
+}
+#section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#section4 h2{
+  font-size: 18px;;
+}
+#section4 p{
+  font-size: 14px;;
+}
+/* Estilos del FOOTER*/
+
+footer {
+  color: white;
+  background-color: black;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 10px;
+  width: 300px;
+  text-align: initial;
+}
+#content-footer li {
+  display: block;
+}
+#content-footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
